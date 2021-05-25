@@ -9,7 +9,7 @@ class Box extends Component{
     constructor(props){
         super(props)
         this.clickHandle = this.clickHandle.bind(this)
-        this.state = {color: "aqua"}
+        this.state = {color: this.props.colors[Math.floor(Math.random() * this.props.colors.length)]}
     }
 
     changeColor(e){
