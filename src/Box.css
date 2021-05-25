@@ -1,6 +1,8 @@
 .Box {
-    width: 15rem;
-    height: 15rem;
+    width: 25%;
+    height: 25%;
     background-color: aqua;
     cursor: pointer;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
